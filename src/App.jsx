@@ -8,16 +8,16 @@ import Footer from './components/footer/Footer'
 
 
 function App() {
-  return (
-    <>
-      <Header/>
-      <Nav/>
-      <About/>
-      <Experience/>
-      <Contacts/>
-      <Footer/>
-    </>
-  )
+    return (
+        <>
+            <Header/>
+            <Nav/>
+            <About/>
+            <Experience/>
+            <Contacts/>
+            <Footer/>
+        </>
+    )
 }
 
 export default App

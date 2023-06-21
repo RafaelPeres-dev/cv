@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -9,101 +9,102 @@
     list-style: none;
 }
 
-:root{
+:root {
     /*Colors*/
-    --bg:#36213E;
-    --bg-variant:#4b1161;
-    --title:#6B4FAC;
-    --text:#A393EB;
+    --bg: #36213E;
+    --bg-variant: #4b1161;
+    --title: #6B4FAC;
+    --text: #A393EB;
 
-    --transition:all 400ms ease;
+    --transition: all 400ms ease;
 
     /*Containers*/
-    --container-75:75%;
-    --container-86:86%;
-    --container-90:90%;
+    --container-75: 75%;
+    --container-86: 86%;
+    --container-90: 90%;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
-    color:white;
+    color: white;
     line-height: 1.7;
 }
 
 /* ------------------ Geral Style Above ---------------- */
 
-.container{
+.container {
     width: var(--container-75);
     margin: 0 auto;
 }
 
-h1,h2,h3,h4,h5{
+h1, h2, h3, h4, h5 {
     font-weight: 500;
 }
 
-h1{
+h1 {
     font-size: 2.5rem;
 }
 
-section{
-    margin-top:8rem;
+section {
+    margin-top: 8rem;
 }
 
-section > h2, section > h5{
+section > h2, section > h5 {
     text-align: center;
     color: var(--text);
 }
 
 section > h2 {
     color: var(--title);
-    margin-bottom:3rem;
+    margin-bottom: 3rem;
 }
 
-.text{
-    color:var(--text);
+.text {
+    color: var(--text);
 }
 
-a{
+a {
     color: var(--title);
     transition: var(--transition);
+    text-decoration: none;
 }
 
-a:hover{
-    color:white;
+a:hover {
+    color: white;
 }
 
-.btn{
+.btn {
     width: max-content;
     display: inline-block;
     color: var(--text);
     padding: 0.7rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border:1px solid var(--text);
+    border: 1px solid var(--text);
     transition: var(--transition);
 }
 
-.btn:hover{
+.btn:hover {
     background-color: white;
     color: var(--bg);
     border: transparent;
 }
 
-.btn-primary{
+.btn-primary {
     background: var(--title);
     color: white;
 }
 
-image{
+image {
     width: 100%;
     object-fit: cover;
     display: block;
@@ -111,22 +112,24 @@ image{
 
 /* ------------------- MEDIA QUERIES (MEDIUM) -------------- */
 
-@media screen and (max-width:1024px) {
-    .container{
+@media screen and (max-width: 1024px) {
+    .container {
         width: var(--container-86);
     }
-    section{
-        margin-top:6rem;
+
+    section {
+        margin-top: 6rem;
     }
 }
 
 /* ------------------- MEDIA QUERIES (SMALL) -------------- */
 
-@media screen and (max-width:600px) {
-    .container{
+@media screen and (max-width: 600px) {
+    .container {
         width: var(--container-90);
     }
-    section > h2{
-        margin-bottom:2rem;
+
+    section > h2 {
+        margin-bottom: 2rem;
     }
 }
