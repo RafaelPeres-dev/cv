@@ -35,7 +35,7 @@ function Contacts() {
                             Send an email!
                         </article>
                     </a>
-                    <a href="https://m.me/" rel="noreferrer" target='_blank'>
+                    <a href="https://m.me/RafaelPeres95" rel="noreferrer" target='_blank'>
                         <article className="contact__option">
                             <RiMessengerLine className='contact__option-icon'/>
                             <h4>Messenger</h4>

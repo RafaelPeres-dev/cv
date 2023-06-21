@@ -30,7 +30,7 @@ function Experience() {
                         <article className="experience_details">
                             <BsPatchCheckFill className="experience__details-icon"/>
                             <div>
-                                <h4>JavaScript</h4>
+                                <h4>JAVASCRIPT</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
@@ -56,6 +56,13 @@ function Experience() {
                         <article className="experience_details">
                             <BsPatchCheckFill className="experience__details-icon"/>
                             <div>
+                                <h4>LUA</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className="experience__details-icon"/>
+                            <div>
                                 <h4>PHP</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
@@ -70,7 +77,7 @@ function Experience() {
                         <article className="experience_details">
                             <BsPatchCheckFill className="experience__details-icon"/>
                             <div>
-                                <h4>MySql</h4>
+                                <h4>MYSQL</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>

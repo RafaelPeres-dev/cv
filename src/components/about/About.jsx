@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../img/me.png'
+import ME from '../../img/code.png'
 import {FaAward} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
@@ -29,8 +29,7 @@ function About() {
                         </article>
                     </div>
                     <p>
-                        Com mais de 5 anos de experiencia na area da programação
-                        já realizei alguns projectos em várias linguagens e com várias tecnologias
+                        With more than 5 years of experience in the programming area, I have done some projects in various languages and with various technologies.
                     </ p>
                     <a href="#contacts" className="btn btn-primary">Lets Talk</a>
                 </div>
